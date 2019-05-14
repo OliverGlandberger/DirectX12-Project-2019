@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D3D12\D3D12ConstantBuffer.cpp" />
+    <ClCompile Include="D3D12\D3D12Material.cpp" />
+    <ClCompile Include="D3D12\D3D12Mesh.cpp" />
+    <ClCompile Include="D3D12\D3D12Renderer.cpp" />
+    <ClCompile Include="D3D12\D3D12Sampler2D.cpp" />
+    <ClCompile Include="D3D12\D3D12Technique.cpp" />
+    <ClCompile Include="D3D12\D3D12Texture2D.cpp" />
+    <ClCompile Include="D3D12\D3D12Transform.cpp" />
+    <ClCompile Include="D3D12\D3D12VertexBuffer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tools\Benchmark.cpp" />
+    <ClCompile Include="Tools\Locator.cpp" />
+    <ClCompile Include="D3D12\Descriptions\TextureDescriptions.cpp" />
+    <ClCompile Include="D3D12\Bundles\OriginalBundle.cpp" />
+    <ClCompile Include="D3D12\Bundles\Bundle.cpp" />
+    <ClCompile Include="D3D12\FrameResource.cpp" />
+    <ClCompile Include="D3D12\FrameResourceManager.cpp" />
+    <ClCompile Include="D3D12\D3D12Camera.cpp" />
+    <ClCompile Include="Tools\GpuClock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D12\D3D12Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12ConstantBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Sampler2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\D3D12Technique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D12\Bundles\Bundle.h" />
+    <ClInclude Include="D3D12\Bundles\OriginalBundle.h" />
+    <ClInclude Include="D3D12\D3D12ConstantBuffer.h" />
+    <ClInclude Include="D3D12\D3D12Material.h" />
+    <ClInclude Include="D3D12\D3D12Mesh.h" />
+    <ClInclude Include="D3D12\D3D12Renderer.h" />
+    <ClInclude Include="D3D12\D3D12Sampler2D.h" />
+    <ClInclude Include="D3D12\D3D12Technique.h" />
+    <ClInclude Include="D3D12\D3D12Texture2D.h" />
+    <ClInclude Include="D3D12\D3D12Transform.h" />
+    <ClInclude Include="D3D12\D3D12VertexBuffer.h" />
+    <ClInclude Include="D3D12\Descriptions\TextureDescriptions.hpp" />
+    <ClInclude Include="GlobalDefines.h" />
+    <ClInclude Include="IA.h" />
+    <ClInclude Include="Tools\Benchmark.h" />
+    <ClInclude Include="Tools\Locator.h" />
+    <ClInclude Include="D3D12\FrameResource.h" />
+    <ClInclude Include="D3D12\FrameResourceManager.h" />
+    <ClInclude Include="D3D12\D3D12Camera.h" />
+    <ClInclude Include="D3D12\D3D12ConstantBuffer.h" />
+    <ClInclude Include="D3D12\D3D12Material.h" />
+    <ClInclude Include="D3D12\D3D12Mesh.h" />
+    <ClInclude Include="D3D12\D3D12Renderer.h" />
+    <ClInclude Include="D3D12\D3D12Sampler2D.h" />
+    <ClInclude Include="D3D12\D3D12Technique.h" />
+    <ClInclude Include="D3D12\D3D12Texture2D.h" />
+    <ClInclude Include="D3D12\D3D12Transform.h" />
+    <ClInclude Include="D3D12\D3D12VertexBuffer.h" />
+    <ClInclude Include="GlobalDefines.h" />
+    <ClInclude Include="IA.h" />
+    <ClInclude Include="Tools\Benchmark.h" />
+    <ClInclude Include="Tools\Locator.h" />
+    <ClInclude Include="Tools\GpuClock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Guides\HowToCommandListsAndBundles.txt" />
+  </ItemGroup>
+</Project>
